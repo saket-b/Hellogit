@@ -29,9 +29,13 @@ console.log(f);
 var str = 'a'
 console.log(typeof str);
 
-str = "saket"
+str = "bharti";
 console.log(str);
 
+
+var num =400
+
+console.log(`half of ${num} is ${num/2}`);
 
 
 
