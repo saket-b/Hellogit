@@ -21,21 +21,66 @@ console.log("hi hello");
 var t = true;
 var f = false;
 
-console.log(t);
+console.log(t);// This is for print
 console.log(f);
 
 // '',          "",             ``
 //single quotes, double quotes, backstick
-var str = 'a'
+
+// var -> on var any thing store also can redeclare
+var str = 'a' 
 console.log(typeof str);
 
 str = "bharti";
 console.log(str);
 
-
+// var,  let,const
 var num =400
 
 console.log(`half of ${num} is ${num/2}`);
+
+
+var x = 100;
+
+console.log(x);
+
+var y = 200;
+console.log(y);
+
+// let cannot to be redeclare  
+let l = 100;
+console.log(l);
+
+// let l = 300; //SyntaxError: Identifier 'l' has already been declared
+// console.log(l);
+
+l = 300; 
+console.log(l);
+
+l ="saket"; // This is also correct in JS
+console.log(l);
+
+// loop in JS
+
+var num = 10;
+
+
+for(var i=0; i<num; i++)
+{
+    if( i % 2 == 0)
+    console.log(i);
+}
+
+
+// const keyboard
+
+const a2 = 2;
+//a2 =5; // reinitialise nhi kar sakte hai
+//TypeError: Assignment to constant variable.
+
+console.log(a2);
+
+
 
 
 
