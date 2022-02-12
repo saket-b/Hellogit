@@ -63,14 +63,18 @@ console.log(l);
 
 var num = 10;
 
+// let keyboard is blocked scope
+// var is function scoped
 
-for(var i=0; i<num; i++)
+let i;
+
+for( i=0; i<num; i++)
 {
     if( i % 2 == 0)
     console.log(i);
 }
 
-
+console.log("let   " + i);
 // const keyboard
 
 const a2 = 2;
