@@ -1,4 +1,3 @@
-
 var a;
 a = 10;
 console.log(a);
@@ -79,9 +78,3 @@ const a2 = 2;
 //TypeError: Assignment to constant variable.
 
 console.log(a2);
-
-
-
-
-
-
